@@ -12,3 +12,29 @@ Armazene os dados em Supabase, uma base de dados relacional baseada em PostgreSQ
 Modele os dados usando DBT Cloud para criar visões analíticas.
 Gerencie todo o código e documentação com Git.
 Este escopo reflete uma abordagem prática, alinhada com os fundamentos de engenharia de dados, como extração, transformação, carregamento (ETL) e modelagem, com foco em ferramentas modernas e acessíveis.
+
+
+
+--------------------------------
+
+EMPRESAS BRASILEIRAS NA ALPHA VANTAGE
+
+Obtenção das empresas listadas na B3.
+https://www.b3.com.br/pt_br/produtos-e-servicos/negociacao/renda-variavel/empresas-listadas.htm
+
+Obtenção das empresas listadas na Alpha Vantage.
+https://www.alphavantage.co/query?function=LISTING_STATUS&apikey=demo
+
+
+Precisa ser verificado utilizando os códigos da B3 na Alpha, se contém na API, visto que a
+intenção é focar no mercado de ações brasileiro.
+
+Utiliza-se Pandas e SQLalchemy para fazer inner join e verificar pelo SYMBOL.
+Após, salva-se em outro csv para usar posteriormente na aplicação direto na API para a busca.
+
+---------------------------------
+
+
+CONECTAR NA API E OBTER OS DADOS DAS EMPRESAS BRASILEIRAS
+
+
