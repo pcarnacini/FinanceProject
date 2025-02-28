@@ -47,13 +47,13 @@ for filename in os.listdir(csv_directory):
                 if_exists='replace',  # Garantia de que substitua caso a tabela exista
                 index=False,
                 dtype={
-                    'data': Date,      # Tipo DATE do SQLAlchemy
-                    'open': Float,     # Tipo FLOAT do SQLAlchemy
-                    'high': Float,     # Tipo FLOAT do SQLAlchemy
-                    'low': Float,      # Tipo FLOAT do SQLAlchemy
-                    'close': Float,    # Tipo FLOAT do SQLAlchemy
-                    'volume': BigInteger, # Tipo BigINTEGER (alguns valores são muito grandes) do SQLAlchemy
-                    'symbol': String   # Tipo VARCHAR
+                    'data': Date,
+                    'open': Float,
+                    'high': Float,
+                    'low': Float,
+                    'close': Float,
+                    'volume': BigInteger, # Tipo BigINTEGER (alguns valores são muito grandes)
+                    'symbol': String
                 }
             )
             print(f"CSV enviado: {filename} to table {table_name}")

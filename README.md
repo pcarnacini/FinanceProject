@@ -13,8 +13,6 @@ Modele os dados usando DBT Cloud para criar visões analíticas.
 Gerencie todo o código e documentação com Git.
 Este escopo reflete uma abordagem prática, alinhada com os fundamentos de engenharia de dados, como extração, transformação, carregamento (ETL) e modelagem, com foco em ferramentas modernas e acessíveis.
 
-
-
 --------------------------------
 
 EMPRESAS BRASILEIRAS NA ALPHA VANTAGE
@@ -34,7 +32,6 @@ Após, salva-se em outro csv para usar posteriormente na aplicação direto na A
 
 ---------------------------------
 
-
 CONECTAR NA API E OBTER OS DADOS DAS EMPRESAS BRASILEIRAS
 
 A API limita-se no plano gratuito a 25 consultas diárias. A partir disso, de acordo com o
@@ -53,7 +50,6 @@ Lê-se o csv das empresas já reconhecidas.
 Itera-se todas as empresas na API, fazendo com que obtenha-se os dados de todas as listadas.
 Salva-se em uma pasta separada para após enviar ao banco de dados.
 
-
 ---------------------------------
 
 Faz-se o tratamento dos dados, removendo os valores nulos (se existentes), tratando os dados, e acrescenta-se o código da empresa.
@@ -61,6 +57,25 @@ Envia-se os dados para o banco de dados utilizando pandas e SQLAlchemy.
 
 ---------------------------------
 
+Transformação dos dados em uma tabela geral (staging)
 Agora, utiliza-se o DBT Cloud para fazer a modelagem dos dados.
 
+Modelagens feitas:
+
+Modelo de Retornos Diários
+Objetivo: Calcular o retorno diário de cada ação, medindo a variação percentual entre o preço de abertura e fechamento.
+
+Modelo de Médias Móveis
+Objetivo: Calcular as médias móveis de 7 e 30 dias para o preço de fechamento.
+
+Modelo de Volatilidade
+Objetivo: Calcular a volatilidade como o desvio padrão dos retornos diários em um período de 30 dias.
+
+Modelo de Métricas Agregadas
+Objetivo: Gerar métricas agregadas, como a média de volume negociado por mês para cada ação.
+
+Modelo de Comparações entre Ações
+Objetivo: Identificar as 5 ações com maior retorno médio.
+
 ---------------------------------
+
