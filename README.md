@@ -51,8 +51,16 @@ AMBP - Ambipar, CASH - Meliuz, ELMD - Eletromidia, MBLY - Mobly
 
 Lê-se o csv das empresas já reconhecidas.
 Itera-se todas as empresas na API, fazendo com que obtenha-se os dados de todas as listadas.
-Salva-se em uma pasta separada para após fazer staging e então ETL.
+Salva-se em uma pasta separada para após enviar ao banco de dados.
 
 
 ---------------------------------
 
+Faz-se o tratamento dos dados, removendo os valores nulos (se existentes), tratando os dados, e acrescenta-se o código da empresa.
+Envia-se os dados para o banco de dados utilizando pandas e SQLAlchemy.
+
+---------------------------------
+
+Agora, utiliza-se o DBT Cloud para fazer a modelagem dos dados.
+
+---------------------------------
