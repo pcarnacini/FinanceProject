@@ -4,7 +4,7 @@ WITH retornos AS (
   SELECT
     data,
     symbol,
-    (close - open) / close AS retorno_diario
+    (((close - open) / close)*100) AS retorno_diario
   FROM
     {{ ref('stg_acoes') }}
 )
