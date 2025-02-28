@@ -3,7 +3,7 @@
 WITH retornos_medios AS (
   SELECT
     symbol,
-    AVG(((close - open) / open)*100) AS retorno_medio
+    AVG((close - open) / open) AS retorno_medio
   FROM
     {{ ref('stg_acoes') }}
   GROUP BY
