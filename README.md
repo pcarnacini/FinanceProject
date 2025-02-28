@@ -37,4 +37,22 @@ Após, salva-se em outro csv para usar posteriormente na aplicação direto na A
 
 CONECTAR NA API E OBTER OS DADOS DAS EMPRESAS BRASILEIRAS
 
+A API limita-se no plano gratuito a 25 consultas diárias. A partir disso, de acordo com o
+valor de mercado e composição IBOVESPA, escolheu-se as seguintes:
+
+ABEV - Ambev S.A., AZUL - Azul S.A., BBDC - Barings BDC Inc (relacionado ao Bradesco)
+BRFS - BRF S.A., CSAN - Cosan S.A., ITUB - Itau Unibanco Holding S.A.
+JBSS - JBS S.A., VALE - Vale S.A., PETZ - TDH Holdings Inc (Petlove)
+QUAL - Qualicorp, RAIL - Rumo S.A., RENT - Localiza
+RNEW - Renova Energia, SBFG - Grupo SBF (Centauro), SEER - Ser Educacional
+SOND - Sondotecnica, TKNO - Tekno, VAMO - Vamos
+VSTE - Veste, WEST - Westwing, AGRO - BrasilAgro
+AMBP - Ambipar, CASH - Meliuz, ELMD - Eletromidia, MBLY - Mobly
+
+Lê-se o csv das empresas já reconhecidas.
+Itera-se todas as empresas na API, fazendo com que obtenha-se os dados de todas as listadas.
+Salva-se em uma pasta separada para após fazer staging e então ETL.
+
+
+---------------------------------
 
