@@ -1,0 +1,33 @@
+version: 2
+
+sources:
+  - name: public
+    database: postgres
+    schema: public
+    tables:
+      - name: fABEV
+      - name: fAGRO
+      - name: fAMBP
+      - name: fAZUL
+      - name: fBBDC
+      - name: fBRFS
+      - name: fCASH
+      - name: fCSAN
+      - name: fELMD
+      - name: fITUB
+      - name: fJBSS
+      - name: fMBLY
+      - name: fPETZ
+      - name: fQUAL
+      - name: fRAIL
+      - name: fRENT
+      - name: fRNEW
+      - name: fSBFG
+      - name: fSEER
+      - name: fSOND
+      - name: fTKNO
+      - name: fVALE
+      - name: fVAMO
+      - name: fVSTE
+      - name: fWEST
+

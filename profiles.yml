@@ -1,0 +1,12 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: aws-0-us-west-1.pooler.supabase.com
+      port: 5432
+      user: postgres.vbionqmazkbltxfvsnvg
+      password: "f7pEDy8XQIQk7zb4"
+      dbname: postgres
+      schema: public
+      threads: 4
