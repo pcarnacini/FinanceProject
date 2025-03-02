@@ -7,3 +7,4 @@ tests/
 snapshots/
 seeds/
 analyses/
+.venv/

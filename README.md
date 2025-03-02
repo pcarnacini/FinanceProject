@@ -79,3 +79,7 @@ Objetivo: Identificar as 5 ações com maior retorno médio.
 
 ---------------------------------
 
+Por fim, utilizou-se do Power BI para desenvolver um dashboard interativo, que permite ao usuário visualizar as métricas e tendências das ações.
+link_do_dashboard.dash.br
+
+---------------------------------
