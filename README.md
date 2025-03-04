@@ -1,9 +1,9 @@
 # Projeto Financeiro - Análise de Dados Financeiros
 
 Contexto e Escolha de Dados
-Este projeto tem como objetivo analisar dados financeiros do mercado de ações brasileiro, com foco em preços diários de ações listadas na B3 (Bolsa de Valores de São Paulo). A escolha por esse tipo de dado deve-se à sua relevância para análises de mercado e à disponibilidade de fontes confiáveis.
+Este projeto tem como objetivo analisar dados financeiros do mercado de ações brasileiro no exterior (US Market), com foco em preços diários de ações listadas na B3 (Bolsa de Valores de São Paulo). A escolha por esse tipo de dado deve-se à sua relevância para análises de mercado e à disponibilidade de fontes confiáveis.
 
-Inicialmente, fontes como o Banco Central do Brasil (Dados Abertos do Banco Central) foram consideradas, mas, por oferecerem apenas indicadores macroeconômicos sem cobertura específica de preços de ações, optou-se pela API Alpha Vantage. Essa API suporta dados de ações brasileiras e possui um tier gratuito adequado para projetos iniciais.
+Inicialmente, fontes como o Banco Central do Brasil (Dados Abertos do Banco Central) foram consideradas, mas, por oferecerem apenas indicadores macroeconômicos sem cobertura específica de preços de ações, optou-se pela API Alpha Vantage, a qual busca os dados no mercado dos EUA (US Market). Essa API suporta dados de ações brasileiras e possui um tier gratuito adequado para projetos iniciais.
 
 ## Escopo do Projeto
 
