@@ -26,31 +26,7 @@ Verificação: Utilização de Pandas e SQLAlchemy para fazer um inner join entr
 Seleção das Empresas
 Devido à limitação de 25 consultas diárias no plano gratuito da API Alpha Vantage, foi necessário selecionar um subconjunto de empresas. A escolha foi baseada no valor de mercado e na composição do Ibovespa, resultando na seguinte lista:
 
-ABEV (Ambev S.A.)
-AZUL (Azul S.A.)
-BBDC (Barings BDC Inc, relacionado ao Bradesco)
-BRFS (BRF S.A.)
-CSAN (Cosan S.A.)
-ITUB (Itau Unibanco Holding S.A.)
-JBSS (JBS S.A.)
-VALE (Vale S.A.)
-PETZ (TDH Holdings Inc, Petlove)
-QUAL (Qualicorp)
-RAIL (Rumo S.A.)
-RENT (Localiza)
-RNEW (Renova Energia)
-SBFG (Grupo SBF, Centauro)
-SEER (Ser Educacional)
-SOND (Sondotecnica)
-TKNO (Tekno)
-VAMO (Vamos)
-VSTE (Veste)
-WEST (Westwing)
-AGRO (BrasilAgro)
-AMBP (Ambipar)
-CASH (Meliuz)
-ELMD (Eletromidia)
-MBLY (Mobly)
+ABEV (Ambev S.A.); AZUL (Azul S.A.); BBDC (Barings BDC Inc, relacionado ao Bradesco); BRFS (BRF S.A.); CSAN (Cosan S.A.); ITUB (Itau Unibanco Holding S.A.); JBSS (JBS S.A.); VALE (Vale S.A.); PETZ (TDH Holdings Inc, Petlove); QUAL (Qualicorp); RAIL (Rumo S.A.); RENT (Localiza); RNEW (Renova Energia); SBFG (Grupo SBF, Centauro); SEER (Ser Educacional); SOND (Sondotecnica); TKNO (Tekno); VAMO (Vamos); VSTE (Veste); WEST (Westwing); AGRO (BrasilAgro); AMBP (Ambipar); CASH (Meliuz); ELMD (Eletromidia); MBLY (Mobly)
 Essa seleção representa uma amostra diversificada do mercado brasileiro.
 
 ### Extração dos Dados
@@ -68,7 +44,7 @@ Visões Analíticas: Facilitam consultas eficientes e fornecem insights diretos 
 
 ### Visualização
 Power BI: Desenvolvimento de um dashboard interativo para apresentar métricas e tendências de forma visual e intuitiva.
-Link do Dashboard: link_do_dashboard.dash.br
+Link do Dashboard: [Dashboard interativo no Power BI](https://app.powerbi.com/view?r=eyJrIjoiODAxNGVlYzktODQ4Ny00NzBlLWI3NWEtOTgwYzcyMDU3YzI2IiwidCI6IjIzZGQzNGE4LWRjMGUtNDU0YS05OTE3LTlhNjQ1OWY0OGJhOCJ9)
 
 ### Considerações Finais
 Este projeto demonstra a implementação de um pipeline de dados completo, desde a extração até a visualização, utilizando ferramentas modernas e acessíveis. Ele pode ser expandido para incluir mais ações ou métricas adicionais conforme necessário.
